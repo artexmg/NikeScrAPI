@@ -9,7 +9,11 @@ Intermediate results for each shoe category are stored in temporary files
 ussage:
 
 ```
+# instantiate class
 nikeAPI = NikeScrAPI(max_pages=300,
                      get_description=True,
                      path='data')
+                   
+# scrape data into pandas framework
+nike = nikeAPI.getData()
 ```
