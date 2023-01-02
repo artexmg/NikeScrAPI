@@ -1,6 +1,6 @@
-#NikeScrAPI class
+# NikeScrAPI class
 
-##Scrape Nike Website
+## Scrape Nike Website
 
 This class is highly configurable, look the options to set it up correctly
 The results are stored in a predefined file
