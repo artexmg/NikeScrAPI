@@ -1,5 +1,12 @@
 # NikeScrAPI class
 
+Will download all products listed in nike.com website, not only shoes. 
+The shoe products are filtered out with:
+
+```python
+item['productType'] == 'FOOTWEAR': 
+```
+
 ## Scrape Nike Website
 
 This class is highly configurable, look the options to set it up correctly
