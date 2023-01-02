@@ -4,7 +4,7 @@ Will download all products listed in nike.com website, not only shoes.
 The shoe products are filtered out with:
 
 ```python
-item['productType'] == 'FOOTWEAR': 
+item['productType'] == 'FOOTWEAR'
 ```
 
 ## Scrape Nike Website
