@@ -1,5 +1,4 @@
 # NikeScrAPI class
-Author: Artemio Mendoza
 
 ## Scrape Nike Website
 
