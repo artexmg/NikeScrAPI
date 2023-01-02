@@ -1,0 +1,21 @@
+# python temp files for Mac
+src/.ipynb*
+src/data/.ipynb*
+
+# Data Files
+src/data/nike_full_dataframe_vectorized.csv
+src/data/tmp
+src/data/weighted*
+src/data/word2vec*
+src/data/best*
+#src/data/nike_06DEC*
+src/data/nike_10DEC*
+src/*.original
+src/EDA*
+src/cs109a_group10_presentation*
+src/data/nike_ML3_vectorized
+
+# Jupyter Notebook
+src/.ipynb*
+src/.ipynb_checkpoints/NikeScrAPI-checkpoint.ipynb
+*-checkpoint.ipynb
