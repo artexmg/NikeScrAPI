@@ -1,11 +1,5 @@
 # NikeScrAPI class
-
-Will download all products listed in nike.com website, not only shoes. 
-The shoe products are filtered out with:
-
-```python
-item['productType'] == 'FOOTWEAR'
-```
+Author: Artemio Mendoza
 
 ## Scrape Nike Website
 
@@ -23,4 +17,11 @@ nikeAPI = NikeScrAPI(max_pages=300,
                    
 # scrape data into pandas framework
 nike = nikeAPI.getData()
+```
+
+Note: it will download all products listed in nike.com website, not only shoes. 
+The shoe products are filtered out with:
+
+```python
+item['productType'] == 'FOOTWEAR'
 ```
